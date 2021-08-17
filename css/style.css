@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 .top-wrapper {
-  border: 1px solid blue;
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -16,6 +15,7 @@ body {
 .text1 {
   /*flex-grow: 6;*/
   margin: auto;
+  margin-left: 1rem;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -31,15 +31,82 @@ body {
 }
 
 .body-wrapper {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
 .summary {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.avance {
+  display: flex;
+  flex-direction: row;
+}
+.text2 {
+  position: absolute;
+  left: 24px;
+  right: 162px;
+  top: 63px;
+  bottom: 729px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #334d6e;
+}
+.text3 {
+  position: absolute;
+  width: 97px;
+  height: 18px;
+  left: 241px;
+  right: 37px;
+  top: 64px;
+  bottom: 730px
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #6a707e;
+}
+.grey { 
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 99px;
+}
+.green {
+  position: absolute;
+  left: 24px;
+  top: 99px;
+}
+.date-avance {
+  position: absolute;
+  left: 24px;
+  right: 157px;
+  top: 123px;
+  bottom: 666px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #192a3e;
+}
+.devider {
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+top: 161px;
+background: #EBEFF2;
 }
 .charts {
   border: 1px solid yellow;
@@ -59,7 +126,6 @@ body {
   height: 102px;
 }
 .summary2 {
-  border: 3px solid rosybrown;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
