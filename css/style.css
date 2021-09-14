@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 body {
   margin: 0;
 }
@@ -52,7 +53,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12.7px;
   line-height: 19px;
   letter-spacing: 0.01em;
   color: #334d6e;
@@ -130,6 +131,52 @@ background: #EBEFF2;
   flex-direction: column;
   justify-content: space-evenly;
   flex-grow: 3;
+}
+.news-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #323C47;
+}
+.alert{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #90A0B7;
+}
+.due {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #4C5862;
+  opacity: 0.5;
+}
+.date {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #4C5862;
+}
+.name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #707683;
 }
 .news1 {
   margin: 13px 24px 24px 24px;
